@@ -71,6 +71,44 @@ body {
     transform: scale(1.1)
 }
 
+.botao {
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid white;
+    margin: 10px;
+    
+}
+
+.botao {
+    animation: vibrar 0.5s ease-in-out infinite both;
+    color: rgb(253, 253, 251);
+}
+@keyframes vibrar {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.chamada {
+    color: aliceblue;
+}
+
+
+
+
+
+
+
 .fundo-video {
     background-color: red;
     position: absolute;
@@ -142,6 +180,8 @@ body {
     opacity: 1;
     visibility: visible;
 }
+
+/* parte da outra pagina */
 
 
 
