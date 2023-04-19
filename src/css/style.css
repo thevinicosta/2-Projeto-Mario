@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    
+
+}
+
+
+div {
+    text-align: center;
+    margin: 6px;
+
+}
+
+b {
+    display: block;
+    font-size: 25px;
+}
+
+form {
+    max-width: 300px;
+    border: 3px solid black;
+    margin: 300px;
+    height: 420px;
+
+}
+
+input {
+    width: 220px;
+    height: 40px;
+    border-radius: 6px;
+
+}
+
+button {
+    height: 40px;
+    margin: 8px;
+    width: 220px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 6px;
+}
